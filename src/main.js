@@ -1,9 +1,8 @@
-import data from './out.json'
+import data from './data.json'
 
 
 window.random = function () {
 	let selection = data[uniformRandNumber(data.length)];
-	console.log(selection);
 	document.getElementById("title").innerText = selection.title;
 	document.getElementById("title").setAttribute("href", selection.url);
 }
@@ -20,3 +19,5 @@ function uniformRandNumber(range) {
 	} while(x >= max); // try again if x is too big
 	return(x % range); // uniformly picked in [0, range)
 }
+
+window.onload = window.random

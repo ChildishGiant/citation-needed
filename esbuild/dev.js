@@ -1,5 +1,11 @@
-const esbuild = require('esbuild')
-const FiveServer = require('five-server').default
+// const esbuild = require('esbuild')
+import esbuild from 'esbuild'
+import FiveServer from 'five-server'
+
+const server = FiveServer.default
+
+import update from './reader.js'; // Update bookmarks
+update()
 
 esbuild.build({
   entryPoints: ['src/main.js'],
@@ -10,6 +16,7 @@ esbuild.build({
   outdir: 'out',
   watch: {
     onRebuild (error, result) {
+      update() // Update bookmarks
       if (error) console.error('watch build failed:', error)
       else console.error('watch build succeeded:', result)
 
@@ -17,7 +24,7 @@ esbuild.build({
   }
 }).then(result => {
   // Call "stop" on the result when you're done
-  new FiveServer().start({
+  new server().start({
     root: './',
     open: true,
     port: 1234

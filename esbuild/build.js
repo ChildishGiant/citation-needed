@@ -1,4 +1,6 @@
 const esbuild = require('esbuild');
+import update from './reader.js'; // Update bookmarks
+update()
 
 esbuild.build({
   entryPoints: ['src/main.js'],
