@@ -1,4 +1,4 @@
-const esbuild = require('esbuild');
+import esbuild from "esbuild";
 import update from './reader.js'; // Update bookmarks
 update()
 
