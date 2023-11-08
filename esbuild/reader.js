@@ -1,7 +1,7 @@
 import fs from 'fs'
 import parse from 'bookmarks-parser'
 
-const bookmark_file = 'bookmarks_24_10_2023.html'
+const bookmark_file = 'bookmarks_07_11_2023.html'
 
 export default function () {
 

@@ -5,13 +5,66 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Citation Needed</title>
 	<script src="out/main.js"></script>
+
+	<style>
+		@font-face {
+			font-family: 'Linux Libertine';
+			src: url('./src/LinLibertine_Rah.ttf') format('truetype');
+		}
+		html,body {
+			font-family: 'Linux Libertine','Georgia','Times','Source Serif Pro',serif;
+			height: 100%;
+			background: #FFF;
+			color: #000;
+			font-size: 2em;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+		}
+		button {
+			background-color: #f8f9fa;
+			color: #202122;
+			border-color: #a2a9b1;
+			border-radius: 4px;
+			border-style: solid;
+			padding-right: 11px;
+			padding-left: 11px;
+			transition-property: background-color,color,border-color,box-shadow;
+			transition-duration: .1s;
+		}
+		button:hover {
+			background-color: #fff;
+			color: #404244;
+			cursor: pointer;
+		}
+		#source {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			font-size: 0.4em;
+			padding: 8px;
+			text-decoration: none;
+			color:#202122
+		}
+		#source:hover {
+			text-decoration: underline;
+		}
+	</style>
+
 </head>
 <body>
-	<button onclick="random()">Random</button>
-	<button onclick="lucky()">I'm feeling lucky</button>
 
-	<div>
+	<div id="content">
 		<a id="title"></a>
+
+		<div id="buttons">
+			<button onclick="random()">Random</button>
+			<button onclick="lucky()">I'm feeling lucky</button>
+		</div>
 	</div>
+
+	<a href="https://github.com/ChildishGiant/citation-needed" id="source">View the source</a>
+
 </body>
 </html>
