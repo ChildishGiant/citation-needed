@@ -13,6 +13,7 @@
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "esbuild": "^0.13.2",
+    "esbuild-sass-plugin": "^2.16.0",
     "five-server": "^0.1.8"
   },
   "dependencies": {

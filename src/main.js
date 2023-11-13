@@ -1,5 +1,7 @@
 import data from './data.json'
 
+// Also process sass
+import './main.sass'
 
 window.random = function () {
 	let selection = data[uniformRandNumber(data.length)];

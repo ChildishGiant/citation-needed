@@ -1,5 +1,6 @@
 // const esbuild = require('esbuild')
 import esbuild from 'esbuild'
+import {sassPlugin} from "esbuild-sass-plugin";
 import FiveServer from 'five-server'
 
 const server = FiveServer.default
@@ -9,6 +10,10 @@ update()
 
 esbuild.build({
   entryPoints: ['src/main.js'],
+  plugins: [sassPlugin()],
+  loader: {
+    ".ttf": "file",
+  },
   bundle: true,
   minify: true,
   sourcemap: true,
