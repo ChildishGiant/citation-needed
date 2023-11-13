@@ -54,8 +54,8 @@ export default function () {
                 child.children.map((item) => {  item.title = item.title.replace(' - Wikipedia', '').replace(', the free encyclopedia',''); return item})
                 // Remove duplicate titles
                 child.children = child.children.filter((item, index, self) => self.findIndex(t => t.title === item.title) === index)
-                // Remove icons
-                child.children.map((item) => {  delete item.icon; return item})
+                // Remove icons and useless type key
+                child.children.map((item) => {  delete item.icon; delete item.type; return item})
 
                 fs.writeFile('src/data.json', JSON.stringify(child.children), function (err, result) {if (err) {throw err}})
 
