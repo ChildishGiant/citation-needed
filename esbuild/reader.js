@@ -57,14 +57,20 @@ export default function () {
                 // Remove icons and useless type key
                 child.children.map((item) => {  delete item.icon; delete item.type; return item})
 
+                // Sort titles alphabetically
+                child.children.sort((a, b) => a.title.localeCompare(b.title));
+
                 fs.writeFile('src/data.json', JSON.stringify(child.children), function (err, result) {if (err) {throw err}})
 
-                let titles = []
-                child.children.forEach(item => titles.push(item.title))
-                // Sort titles
-                titles = titles.sort()
-                fs.writeFile('titles.txt', titles.join("\n"), function (err, result) {if (err) {throw err}})
+                let markdownContent = `# Pages
+Pages linked to in this site
+`;
 
+                child.children.forEach(item => {
+                  markdownContent += `* [${item.title}](${item.url})\n`;
+                });
+
+                fs.writeFile('pages.md', markdownContent, function (err, result) {if (err) {throw err}})
               }
             })
           }
