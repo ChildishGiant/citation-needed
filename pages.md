@@ -1,5 +1,5 @@
 # Pages
-Pages linked to in this site
+These are the wikipedia (and a few other) articles that are randomly chosen from:
 * [100 Years (film)](https://en.wikipedia.org/wiki/100_Years_(film))
 * [2015 Tianjin explosions](https://en.wikipedia.org/wiki/2015_Tianjin_explosions)
 * [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz)
@@ -18,6 +18,7 @@ Pages linked to in this site
 * [Ben Sliney](https://en.wikipedia.org/wiki/Ben_Sliney)
 * [Benevolent dictator for life](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
 * [Berlin Brandenburg Airport](https://en.wikipedia.org/wiki/Berlin_Brandenburg_Airport)
+* [Blue Mustang](https://en.wikipedia.org/wiki/Blue_Mustang)
 * [Che vuoi?](https://en.wikipedia.org/wiki/Che_vuoi%3F)
 * [Cheuksin](https://en.wikipedia.org/wiki/Cheuksin)
 * [Choluteca River](https://en.wikipedia.org/wiki/Choluteca_River)
@@ -52,7 +53,6 @@ Pages linked to in this site
 * [George Remus](https://en.wikipedia.org/wiki/George_Remus)
 * [Gilbert Baker (artist)](https://en.wikipedia.org/wiki/Gilbert_Baker_(artist))
 * [Gish gallop](https://en.wikipedia.org/wiki/Gish_gallop)
-* [GoldFish](https://pfgoldfish.fandom.com/wiki/GoldFish_Wiki)
 * [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper)
 * [Guy Goma](https://en.wikipedia.org/wiki/Guy_Goma)
 * [Hachikō](https://en.wikipedia.org/wiki/Hachik%C5%8D)
@@ -61,7 +61,7 @@ Pages linked to in this site
 * [Helter Skelter (scenario)](https://en.wikipedia.org/wiki/Helter_Skelter_(scenario))
 * [Hitlerszalonna](https://en.wikipedia.org/wiki/Hitlerszalonna)
 * [Home Alone: The Holiday Heist](https://en.wikipedia.org/wiki/Home_Alone:_The_Holiday_Heist)
-* [Hufu](https://en.wikipedia.org/wiki/Hufu)
+* [Hufu](https://en.wikipedia.org/wiki/Hufu_(novelty_item))
 * [Hypnic jerk](https://en.wikipedia.org/wiki/Hypnic_jerk)
 * [I Am Sitting in a Room](https://en.wikipedia.org/wiki/I_Am_Sitting_in_a_Room)
 * [Ignaz Semmelweis](https://en.wikipedia.org/wiki/Ignaz_Semmelweis)
@@ -82,6 +82,7 @@ Pages linked to in this site
 * [Malapropism](https://en.wikipedia.org/wiki/Malapropism)
 * [Marion Stokes](https://en.wikipedia.org/wiki/Marion_Stokes)
 * [Marquis (film)](https://en.wikipedia.org/wiki/Marquis_(film))
+* [Mars Climate Orbiter](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter)
 * [Mecklenburg Correctional Center](https://en.wikipedia.org/wiki/Mecklenburg_Correctional_Center)
 * [Melrose Place](https://en.wikipedia.org/wiki/Melrose_Place)
 * [Mondegreen](https://en.wikipedia.org/wiki/Mondegreen)
@@ -117,6 +118,7 @@ Pages linked to in this site
 * [Sentinelese](https://en.wikipedia.org/wiki/Sentinelese)
 * [Sequoyah](https://en.wikipedia.org/wiki/Sequoyah)
 * [Sick building syndrome](https://en.wikipedia.org/wiki/Sick_building_syndrome)
+* [Single-event upset](https://en.wikipedia.org/wiki/Single-event_upset)
 * [Skeuomorph](https://en.wikipedia.org/wiki/Skeuomorph)
 * [Snow roller](https://en.wikipedia.org/wiki/Snow_roller)
 * [South Korean defectors](https://en.wikipedia.org/wiki/South_Korean_defectors)
@@ -151,3 +153,4 @@ Pages linked to in this site
 * [Women in Refrigerators](https://en.wikipedia.org/wiki/Women_in_Refrigerators)
 * [Yahoo! Meme](https://en.wikipedia.org/wiki/Yahoo!_Meme)
 * [Zipline International](https://en.wikipedia.org/wiki/Zipline_International)
+* [Zippy Chippy](https://en.wikipedia.org/wiki/Zippy_Chippy)

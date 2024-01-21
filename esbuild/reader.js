@@ -60,13 +60,16 @@ export default function () {
                 // Sort titles alphabetically
                 child.children.sort((a, b) => a.title.localeCompare(b.title));
 
-                fs.writeFile('src/data.json', JSON.stringify(child.children), function (err, result) {if (err) {throw err}})
+                // Export the data to a readable JSON file
+                fs.writeFile('src/data.json', JSON.stringify(child.children, null, 4), function (err, result) {if (err) {throw err}})
 
+                // The text that will be written to pages.md
                 let markdownContent = `# Pages
-Pages linked to in this site
+These are the wikipedia (and a few other) articles that are randomly chosen from:
 `;
 
                 child.children.forEach(item => {
+                  // Add a bullet point with the page title as a link using md formatting
                   markdownContent += `* [${item.title}](${item.url})\n`;
                 });
 
