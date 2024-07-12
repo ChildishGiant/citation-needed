@@ -2,6 +2,7 @@
 import esbuild from 'esbuild'
 import {sassPlugin} from "esbuild-sass-plugin";
 import FiveServer from 'five-server'
+import checkSitesFromFile from './up_test.js'
 
 const server = FiveServer.default
 
@@ -22,6 +23,7 @@ esbuild.build({
   watch: {
     onRebuild (error, result) {
       update() // Update bookmarks
+      checkSitesFromFile('src/data.json');
       if (error) console.error('watch build failed:', error)
       else console.error('watch build succeeded:', result)
 

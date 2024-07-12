@@ -1,5 +1,6 @@
 import esbuild from "esbuild";
 import {sassPlugin} from "esbuild-sass-plugin";
+import checkSitesFromFile from './up_test.js' // Script to check sites are online
 import update from './reader.js'; // Update bookmarks
 update()
 
@@ -14,4 +15,6 @@ esbuild.build({
   sourcemap: true,
   color: true,
   outdir: 'out',
-}).catch(() => process.exit(1))
+}).then(() => {
+  checkSitesFromFile('src/data.json');
+})
