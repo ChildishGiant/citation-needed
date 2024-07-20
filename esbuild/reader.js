@@ -1,6 +1,8 @@
 import fs from 'fs'
 import parse from 'bookmarks-parser'
 
+// Regex for bookmark html exports with dates on the end
+// bookmarks_DD_MM_YYYY.html
 const date_regex = /bookmarks_(\d\d)_(\d\d)_(\d{4})\.html/gm;
 
 export default function () {
@@ -45,11 +47,12 @@ export default function () {
 
         if (result == undefined) { return }
 
+        // Find the right folder
         result.bookmarks[0].children.forEach(element => {
-
           if (element.type == 'folder') {
             element.children.forEach(child => {
               if (child.title == 'cn' && child.type=='folder') {
+                // If it's the right folder
                 // Remove wiki from titles
                 child.children.map((item) => {  item.title = item.title.replace(' - Wikipedia', '').replace(', the free encyclopedia',''); return item})
                 // Remove duplicate titles
