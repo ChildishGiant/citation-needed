@@ -16,5 +16,6 @@ esbuild.build({
   color: true,
   outdir: 'out',
 }).then(() => {
+  console.log("Finished building the site")
   checkSitesFromFile('src/data.json');
 })

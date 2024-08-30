@@ -6,7 +6,9 @@ import cliProgress from 'cli-progress'
 async function isSiteOnline(url) {
   try {
     const response = await fetch(url, { method: 'HEAD' });
-    return response.ok;
+    // Return true if website ok and not redirected
+    // Can't seem to detect wikipedia redirects but it's better than nothing
+    return response.ok && !response.redirected;
   } catch (error) {
     console.log(error)
     return false
@@ -36,7 +38,7 @@ async function checkSitesFromFile(filePath) {
 
       // If the site's offline
       if (!online) {
-        console.error(`${url} is offline`)
+        console.error(`${url} is offline or redirects\n`)
       }
     }
     // If you've reached here, there are no errors
