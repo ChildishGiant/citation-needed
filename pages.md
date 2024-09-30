@@ -104,6 +104,7 @@ These are the wikipedia (and a few other) articles that are randomly chosen from
 * [New Testament apocrypha](https://en.wikipedia.org/wiki/New_Testament_apocrypha)
 * [Norbert Pearlroth](https://en.wikipedia.org/wiki/Norbert_Pearlroth)
 * [One-armed versus one-legged cricket](https://en.wikipedia.org/wiki/One-armed_versus_one-legged_cricket)
+* [Peace of Mind/The Candle Burns](https://en.wikipedia.org/wiki/Peace_of_Mind/The_Candle_Burns)
 * [Peppercorn (legal)](https://en.wikipedia.org/wiki/Peppercorn_(legal))
 * [Phlogiston theory](https://en.wikipedia.org/wiki/Phlogiston_theory)
 * [Pitcairn Islands](https://en.wikipedia.org/wiki/Pitcairn_Islands)
